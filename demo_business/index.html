@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BUSINESS-UI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="img/business.ico">
+	</head>
+	
+	<body>
+		<!--Оболочка всей страницы-->
+		<!--Используется как флекс-контейнер, чтобы разнести футер и контент-->
+
+		<div class="wrapper">
+			<main class="page">
+				<!--Подключаем хедер обязательно в коментарии-->
+<header class="header">
+	<div class="container">
+		<div class="header__row">
+			<div class="header__logo">
+				<a href=""><img src="img/logo.svg" alt="logo"></a>
+			</div>
+			<nav class="header__menu menu">
+				<!--Под бургер меню-->
+				<div class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu__body">
+					<ul class="menu__list">
+						<li><a href="#" class="menu__link">Investors</a></li>
+						<li><a href="#" class="menu__link">About Us</a></li>
+						<li><a href="#" class="menu__link">Our Services</a></li>
+						<li><a href="#" class="menu__link">News & Media</a></li>
+						<li><a href="#" class="menu__link">Career</a></li>
+						<li><a href="#" class="menu__link last-link">Our Locations</a><a href="#" class="menu__link link-earth ibg"><img class="" src="img/earth.svg" alt="earth"></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>	
+	</div>
+</header>				<section class="mainblock">
+					<div class="container">
+						<section class="mainblock__body">
+							<div class="mainblock__image ibg">
+								<img src="img/main_screen.jpg" alt="main_screen">
+								<h1>Building a high growth, high quality debt management services company</h1>
+								<div class="mainblock__blue blue"></div>
+							</div>
+							<div class="mainblock__subtitle">
+								<p>
+									We’re a group of companies within the credit management services industry. We are primarily focusing on large and high growth NPL markets, and have operations in Spain, Italy, Germany, Norway and Sweden. We have an ambitious Pan-European growth strategy and are continuously exploring new markets in Europe.
+								</p>
+							</div>
+							<div class="mainblock__button">
+								<a href="#" class="mainblock__btn"><span>Annual General Meeting 2017</span></a>
+							</div>
+						</section>
+					</div>
+				</section>
+				<section class="investor">
+					<div class="container">
+						<div class="investor__body">
+							<h2 class="investor__title title">Investor Relations</h2>
+							<h3 class="investor__subtitle">We’re Investor Relations team is striving to serve all shareholders and potential investors by providing consistent, open and timely disclosure of relevant information.</h3>
+							<div class="investor__stat">
+								<div class="investor__column column-investor">
+									<div class="column-investor__item">
+										<div class="column-investor__big">77.95</div>
+										<div class="column-investor__small">Share Price (NOK)</div>
+									</div>
+								</div>
+								<div class="investor__column column-investor">
+									<div class="column-investor__item">
+										<div class="column-investor__big">2.26</div>
+										<div class="column-investor__small">Last Change</div>
+									</div>
+								</div>
+								<div class="investor__column column-investor">
+									<div class="column-investor__item">
+										<div class="column-investor__big">9,587,985</div>
+										<div class="column-investor__small">Volume (thousands)</div>
+									</div>
+								</div>
+								<div class="investor__column column-investor">
+									<div class="column-investor__item">
+										<div class="column-investor__big">AXA</div>
+										<div class="column-investor__small">Ticker (Oslo Bors)</div>
+									</div>
+								</div>
+								<div class="investor__column column-investor">
+									<div class="column-investor__item">
+										<div class="column-investor__big">4.15%</div>
+										<div class="column-investor__small">Market Cap (NOK M)</div>
+									</div>
+								</div>
+							</div>
+							<div class="investor__button">
+								<a href="" class="investor__btn"><span>Read More</span></a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="news">
+					<div class="container">
+						<div class="news__body">
+							<h2 class="news__title title">News & Media</h2>
+							<div class="news__menu menu-news">
+								<div class="menu-news__list">
+									<button class="btn menu-news__link" onclick="filterSelection('news')">News</button>
+									<button class="btn menu-news__link" onclick="filterSelection('release')">Press<br>Release</button>
+									<button class="btn menu-news__link select" onclick="filterSelection('all')">all</button>
+								</div>
+							</div>
+							<div class="news__cards cards">
+								<div class="cards__row">
+									<div class="cards__item filterDiv release">
+										<div class="cards__image ibg">
+											<img src="img/news/1.png" alt="news_1">
+											<div class="cards__subtitle">Press Release</div>
+											<div class="cards__title">increases existing loan facilities</div>
+											<div class="cards__blue blue-cards"></div>
+										</div>
+										<div class="cards__text">
+											On May 5,  2017 the 4th tranche under the Recurring Credit Facility which has with DNB Bank ASA and Nordea Bank AS was made available to the company. 
+										</div>
+										<div class="cards__link">
+											<a href="" class="cards__lnk">Read More</a>
+										</div>
+									</div>
+									<div class="cards__item filterDiv news">
+										<div class="cards__image ibg">
+											<img src="img/news/2.png" alt="news_2">
+											<div class="cards__subtitle">News</div>
+											<div class="cards__title">acquires another primary portfolio in spain</div>
+											<div class="cards__blue blue-cards"></div>
+										</div>
+										<div class="cards__text">
+											On May 5,  2017 the 4th tranche under the Recurring Credit Facility which  has with DNB Bank ASA and Nordea Bank AS was made available to the company.
+										</div>
+										<div class="cards__link">
+											<a href="" class="cards__lnk">Read More</a>
+										</div>
+									</div>
+									<div class="cards__item filterDiv release">
+										<div class="cards__image ibg">
+											<img src="img/news/3.png" alt="news_3">
+											<div class="cards__subtitle">Press Release</div>
+											<div class="cards__title">increases existing loan facilities</div>
+											<div class="cards__blue blue-cards"></div>
+										</div>
+										<div class="cards__text">
+											On May 5,  2017 the 4th tranche under the Recurring Credit Facility which  has with DNB Bank ASA and Nordea Bank AS was made available to the company.
+										</div>
+										<div class="cards__link">
+											<a href="" class="cards__lnk">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="map">
+					<div class="container">
+						<div class="map__title title">Learn more about Us in your country</div>
+						<div class="map__image ibg">
+							<img src="img/map.png" alt="map">
+						</div>
+					</div>
+				</div>
+				<!--Верстаем футер-->
+				<footer class="footer">
+					<div class="container">
+						<div class="footer__row">
+							<div class="footer__copy">Business 2017</div>
+							<div class="footer__sections">
+								<a href="" class="footer__link">Terms & Conditions</a>
+								<a href="" class="footer__link">Privacy Policy</a>  	
+							</div>
+						</div>
+					</div>
+				</footer>
+			</main>
+		</div>
+		<script language="JavaScript" type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>	
+	
